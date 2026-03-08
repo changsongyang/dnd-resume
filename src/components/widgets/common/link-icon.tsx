@@ -1,8 +1,8 @@
-import { LogoGithub, LogoGmail, LogoJuejin } from '@/components/common/svg-icons'
+import { LogoGithub, LogoGmail, LogoWechat } from '@/components/common/svg-icons'
 import { Cake, Link, Mail, MapPin, Phone } from 'lucide-react'
 
 export function LinkIconComponent(icon: string) {
-  const props = { width: '1em', height: '1em' }
+  const props = { width: '16px', height: '16px' }
   switch (icon) {
     case 'link':
       return <Link {...props} />
@@ -14,8 +14,8 @@ export function LinkIconComponent(icon: string) {
       return <Phone {...props} />
     case 'github':
       return <LogoGithub {...props} />
-    case 'juejin':
-      return <LogoJuejin {...props} />
+    case 'wechat':
+      return <LogoWechat {...props} />
     case 'mail':
       return <Mail {...props} />
     case 'gmail':

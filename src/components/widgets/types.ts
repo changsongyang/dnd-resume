@@ -95,12 +95,12 @@ export interface IImageSectionData {
 }
 
 export const linkIconNames = [
-  'link',
-  'location',
   'cake',
+  'location',
   'phone',
+  'wechat',
+  'link',
   'github',
-  'juejin',
   'mail',
   'gmail',
 ] as const
